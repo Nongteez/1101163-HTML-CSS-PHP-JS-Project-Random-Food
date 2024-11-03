@@ -1,6 +1,6 @@
 # 🚀 Project Name
 
-> **Kin Rai Dee!
+> ** Kin Rai Dee ! เว็ปไซต์สำหรับสุ่มอาหาร สำหรับคนไม่รู้ว่าจะทานเมนูอะไร -- โปรเจคนี้เป็นโปรเจคของชุดวิชา "1101163 Project in Software Engineering" 
 
 ---
 
@@ -14,7 +14,7 @@
 ## 📸 Screenshots
 > **Add screenshots or GIFs to showcase the project.**
   
-![Screenshot 1](https://via.placeholder.com/400x300.png?text=Screenshot+1)
+![Screenshot 1](https://postimg.cc/T5XRjPDx)
 ![Screenshot 2](https://via.placeholder.com/400x300.png?text=Screenshot+2)
 
 ## 🔧 Installation
