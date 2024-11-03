@@ -14,7 +14,7 @@
 ## 📸 Screenshots
 > **Add screenshots or GIFs to showcase the project.**
   
-![Screenshot 1](https://postimg.cc/delete/jp7Ld6cv/5589c921)
+![Screenshot 1](https://imgur.com/a/AAqQvcN)
 
 ## 🔧 Installation
 
