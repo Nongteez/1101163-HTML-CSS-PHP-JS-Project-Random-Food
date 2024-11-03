@@ -1,4 +1,4 @@
-# 🚀 Project Name
+# 🍽️ Project Name
 
 > ** Kin Rai Dee ! A website for randomly selecting food for those unsure of what to eat. This project is part of the course "1101163 Project in Software Engineering" and is developed using the Agile methodology.
 
@@ -16,6 +16,10 @@
 6. MYSQL  
 7. CSS  
 8. Visual Studio Code (for coding)
+
+## 📅 ขั้นตอนการดำเนินโปรเจค
+1. Persona ในการพัฒนาระบบ
+2. 
 
 ## 🌟 Features
 - ✨ Feature 1 - Random food selection and restaurant locations via Google Maps
