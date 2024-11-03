@@ -4,7 +4,7 @@
 
 ---
 
-![Project Banner](https://via.placeholder.com/800x200.png?text=Project+Banner) <!-- Replace with a relevant image or logo -->
+![Project Banner](https://imgur.com/a/AAqQvcN) <!-- Replace with a relevant image or logo -->
 
 ## 🌟 Features
 - ✨ **Feature 1** - Brief explanation of this feature.
