@@ -18,8 +18,16 @@
 8. Visual Studio Code (for coding)
 
 ## 📅 ขั้นตอนการดำเนินโปรเจค
-1. Persona ในการพัฒนาระบบ
-2. 
+1. Personas for system development
+2. Figma - UI design
+3. Use Agile methodology with Lean Process principles
+4. Project Planning and Management
+5. PBI- Product Backlog Item
+6. Design each Sprint
+7. Use Case and Class Diagram
+8. System development
+9. System testing
+
 
 ## 🌟 Features
 - ✨ Feature 1 - Random food selection and restaurant locations via Google Maps
