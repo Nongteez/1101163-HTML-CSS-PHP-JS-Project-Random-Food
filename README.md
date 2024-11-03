@@ -3,7 +3,7 @@
 > ** Kin Rai Dee ! เว็ปไซต์สำหรับสุ่มอาหาร สำหรับคนไม่รู้ว่าจะทานเมนูอะไร -- โปรเจคนี้เป็นโปรเจคของชุดวิชา "1101163 Project in Software Engineering" 
 
 ---
-
+## 📸 Screenshots
 ![Project Banner](https://imgur.com/a/AAqQvcN) <!-- Replace with a relevant image or logo -->
 
 ## 🌟 Features
@@ -11,10 +11,6 @@
 - 🚀 **Feature 2** - Brief explanation of this feature.
 - 🛠️ **Feature 3** - Brief explanation of this feature.
   
-## 📸 Screenshots
-> **Add screenshots or GIFs to showcase the project.**
-  
-![Screenshot 1](https://imgur.com/a/AAqQvcN)
 
 ## 🔧 Installation
 
