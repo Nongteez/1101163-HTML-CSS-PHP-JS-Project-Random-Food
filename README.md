@@ -4,7 +4,7 @@
 
 ---
 ## 📸 Screenshots
-![Project Banner](https://imgur.com/aM2OsSG) <!-- Replace with a relevant image or logo -->
+![Project Banner](https://github.com/Nongteez/1101163-HTML-CSS-PHP-JS-Project-Random-Food/issues/1#issue-2630944262) <!-- Replace with a relevant image or logo -->
 
 ## 🌟 Features
 - ✨ **Feature 1** - Brief explanation of this feature.
