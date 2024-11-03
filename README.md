@@ -1,7 +1,7 @@
 # 🚀 Project Name
 
-> ** Kin Rai Dee ! เว็ปไซต์สำหรับสุ่มอาหาร สำหรับคนไม่รู้ว่าจะทานเมนูอะไร -- โปรเจคนี้เป็นโปรเจคของชุดวิชา "1101163 Project in Software Engineering" 
-> ** การพัฒนาโปรเจคนี้ พัฒนาในรูปแบบ Agile.
+> ** Kin Rai Dee ! A website for randomly selecting food for those unsure of what to eat. This project is part of the course "1101163 Project in Software Engineering" and is developed using the Agile methodology.
+
 
 ---
 ## 📸 Screenshots
