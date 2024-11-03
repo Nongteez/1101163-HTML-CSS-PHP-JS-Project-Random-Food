@@ -15,7 +15,6 @@
 > **Add screenshots or GIFs to showcase the project.**
   
 ![Screenshot 1](https://postimg.cc/T5XRjPDx)
-![Screenshot 2](https://via.placeholder.com/400x300.png?text=Screenshot+2)
 
 ## 🔧 Installation
 
