@@ -1,0 +1,80 @@
+nav {
+    padding: 30px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #FD720D;
+    background-color: #FD720D;
+  }
+  * {
+    font-family: 'Prompt', sans-serif;
+  }
+  .logo {
+    width: 140px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 400;
+  }
+  
+  .login-btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #fff;
+    background-image: linear-gradient(45deg, #da1212, rgb(77, 36, 28));
+    font-size: 14px;
+    border-radius: 10px;
+    font-weight: bold;
+    border-bottom: 0;
+  }
+  
+  .btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #ff712f;
+    background-image: linear-gradient(45deg, #fff6eb, rgb(255, 255, 255));
+    font-size: 14px;
+    border-radius: 30px;
+    font-weight: bold;
+    border-top-right-radius: 0;
+  }
+  
+  /* navbar.css */
+
+/* ... ส่วนอื่น ๆ ของ CSS ... */
+
+.clicked {
+  background-color: #da1212 !important; /* กำหนดสีที่ต้องการเมื่อปุ่มถูกคลิก */
+  color: #fff !important; /* กำหนดสีข้อความเมื่อปุ่มถูกคลิก */
+}
+/* navbar.css */
+
+/* ... ส่วนอื่น ๆ ของ CSS ... */
+
+.profile-icon {
+  font-family: 'FontAwesome'; /* กำหนด font-family เพื่อให้รู้จักไอคอน FontAwesome */
+  font-size: 20px; /* ปรับขนาดของไอคอนตามที่ต้องการ */
+  text-align: center;
+  line-height: 40px; /* ปรับความสูงเพื่อให้ไอคอนตรงกลาง */
+  width: 40px; /* ปรับความกว้างเพื่อให้ไอคอนตรงกลาง */
+  height: 40px; /* ปรับความสูงเพื่อให้ไอคอนตรงกลาง */
+  border-radius: 50%; /* ทำให้มีเส้นรอบไอคอนเป็นวงกลม */
+  color: #fff; /* สีของไอคอน */
+  background-color: #FF5E03; /* สีพื้นหลังของไอคอน */
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; /* เพิ่มเอฟเฟกต์ transition */
+}
+
+.profile-icon:hover {
+  background-color: #fff; /* ปรับสีพื้นหลังของไอคอนเมื่อ hover */
+  color: #FF5E03; /* ปรับสีของไอคอนเมื่อ hover */
+}

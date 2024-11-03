@@ -1,0 +1,367 @@
+html, body {
+  background-color: rgb(255, 255, 255) !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  font-family: Prompt !important;
+}
+
+.box {
+  /*background-image: url('PIC/sushi_homepage1.webp');*/
+  background-size: cover;
+  background-color: #333;
+  padding: 20px;
+  margin: 30px;
+  text-align: center;
+  border-radius: 10px;
+  font-family: Prompt;
+  border: 2px solid #FF5E03;
+  text-decoration: none;
+
+}
+
+
+.box2 {
+  background-image: url('PIC/food1.gif');
+  background-size: cover;
+  
+  padding: 20px;
+  margin: 30px;
+  text-align: center;
+  border-radius: 10px;
+  font-family: Prompt;
+  border: 2px solid #FF5E03;
+}
+
+.box3 {
+  /*background-image: url('PIC/ortherbg2.gif');*/
+  background-color: #FF5E03;
+  background-size: cover;
+  border: 2px solid #FF5E03;
+  padding: 20px;
+  margin: 30px;
+  text-align: center;
+  border-radius: 10px;
+  font-family: Prompt;
+}
+.box3 h2 {
+  margin-top: 10px;
+}
+
+.box3 p {
+  margin: 10px 0;
+}
+
+/* เพิ่ม effect ขยายขนาดของ box3 เมื่อ hover */
+.box3:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 20px rgba(255, 94, 3, 0.5);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.image3 {
+  width: 50%; /* ทำให้รูปภาพเต็ม container */
+  border-radius: 10px; /* มุมโค้งของรูปภาพ */
+  transition: transform 0.3s ease-in-out; /* เพิ่มเอฟเฟกต์ transition ของการขยายของรูปภาพ */
+}
+.main-content2 {
+  max-width: 2000px;
+  margin: auto;
+  border-radius: 15px;
+  background-color: #ffffff;
+
+}
+
+
+.image2 {
+  width: 500px;
+  transition: transform 0.3s ease-in-out;
+  animation: colorSwap 30s infinite alternate;
+
+}
+  /* สี
+ /*@keyframes colorSwap { 
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  50% {
+    filter: hue-rotate(120deg); /* สีส้ม */
+  /*}
+  /*50% {
+    filter: hue-rotate(240deg); /* สีแดง */
+  /*}
+} */
+
+.image2:hover {
+  transform: scale(1.1);
+}
+
+
+.image3 {
+  width: 1000px;
+  
+
+}
+
+.main-content {
+  max-width: 2000px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap; /* เพิ่ม flex-wrap เพื่อให้ขอบเขตของ flex container ได้ขยายตามขนาดของหน้าจอ */
+  justify-content: space-around; /* ให้มีระยะห่างระหว่าง columns */
+  border-radius: 15px;
+  background-color: #ffffff;
+}
+
+
+
+.box {
+  flex: 0 0 18%; /* ปรับ flex ให้ครอบ 100% ของขนาดที่กำหนด และเพิ่ม flex-basis เพื่อกำหนดขนาดของแต่ละ column */
+  padding: 20px;
+  margin: 10px; /* ปรับค่า margin ตามต้องการ */
+  text-align: center;
+  border-radius: 10px;
+  font-family: 'Prompt', sans-serif;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+
+}
+
+.image {
+  width: 100%;
+  height: 300px; /* ปรับความสูงตามที่คุณต้องการ */
+  object-fit: cover;
+  border-radius: 20px;
+  overflow: hidden;
+  animation: fadeInScale 0.5s ease-in-out; /* เพิ่ม animation ใน fadeInScale */
+  transition: transform 0.3s ease-in-out; 
+}
+
+.image:hover {
+  transform: scale(1.1); /* เพิ่ม effect ขยายขนาดเมื่อ hover */
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.button {
+  color: #FF5E03;
+  background-color: white;
+  padding: 15px 100px;
+  font-weight: 800;
+  font-size: 30px;
+  border-radius: 15px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  animation: pulse 1s infinite;
+  letter-spacing: 5px; /* ปรับระยะห่างระหว่างตัวหนังสือ */
+
+}
+
+.button:hover {
+  background-color: #FF8C56;
+  color: white;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 15px rgba(255, 94, 3, 0.3);
+}
+
+.button.shake {
+  animation: shake 0.5s;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  20% { transform: translateX(-10px); }
+  40% { transform: translateX(10px); }
+  60% { transform: translateX(-10px); }
+  80% { transform: translateX(10px); }
+  100% { transform: translateX(0); }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Prompt', sans-serif;
+}
+.hero{
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('../PIC/back-image.png');
+  background-position: center;
+  background-size: cover;
+  padding: 10px 10%;
+  overflow: hidden;
+}
+nav{
+  padding: 30px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #FD720D;
+  background-color: #FD720D;
+}
+.logo{
+  width: 140px;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 15px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #333;
+  font-weight: 400;
+
+}
+.login-btn{
+  display: inline-block;
+  text-decoration: none;
+  padding: 14px 40px;
+  color: #fff;
+  background-image: linear-gradient(45deg, #da1212, rgb(77, 36, 28));
+  font-size: 14px;
+  border-radius: 10px;
+  font-weight: bold;
+  border-bottom: 0;
+}
+.btn{
+  display: inline-block;
+  text-decoration: none;
+  padding: 14px 40px;
+  color: #ff712f;
+  background-image: linear-gradient(45deg, #fff6eb, rgb(255, 255, 255));
+  font-size: 14px;
+  border-radius: 30px;
+  font-weight: bold;
+  border-top-right-radius: 0;
+}
+
+.box h2:hover, .box p:hover {
+  text-decoration: none;
+
+  color: #ffa600; /* ปรับสีข้อความเมื่อ Hover */
+  text-decoration: underline; /* เพิ่ม underline เมื่อ Hover */
+  transition: color 0.3s ease-in-out; /* เพิ่มเอฟเฟกต์ transition สี */
+}
+
+.box h2, .box p {
+  text-decoration: none;
+
+  transition: color 0.3s ease-in-out; /* เพิ่มเอฟเฟกต์ transition สี */
+}
+.box:hover {
+  transform: scale(1.05); /* เพิ่มขนาดของกล่องเมื่อ Hover */
+  box-shadow: 0px 0px 20px rgba(255, 94, 3, 0.5); /* เพิ่มเอฟเฟกต์เงา */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* เพิ่มเอฟเฟกต์ transition ของการขยายของกล่องและเงา */
+}
+.button:hover {
+  background-color: #FF8C56; /* ปรับสีพื้นหลังเมื่อ Hover */
+  color: white; /* ปรับสีข้อความเมื่อ Hover */
+  transform: scale(1.1); /* เพิ่มขนาดของปุ่มเมื่อ Hover */
+  box-shadow: 0px 0px 15px rgba(255, 94, 3, 0.3); /* เพิ่มเอฟเฟกต์เงา */
+}
+.box {
+  border: 2px solid #FF5E03; /* /* เพิ่มขอบโดยใช้สีเดียวกับข้อความ */
+}
+.box {
+    text-decoration: none;
+
+  background-color: white; /* ปรับพื้นหลังเป็นสีขาว */
+}
+.button {
+  border: 2px solid #FF5E03; /* เพิ่มขอบโดยใช้สีเดียวกับข้อความ */
+}
+a {
+  text-decoration: none; /* ลบขีดเส้นใต้ทั้งหน้า */
+}
+
+
+.hide {
+  color: #ffffff;
+  font-weight: 600;
+}
+/* เพิ่ม CSS เพื่อทำให้ตัวหนังสือแสดงสีส้มและ hover เปลี่ยนเป็นสีเหลือง */
+.box h2,
+.box p {
+  color: #FF5E03; /* กำหนดสีส้มให้กับตัวหนังสือ */
+  transition: color 0.3s ease-in-out; /* เพิ่มเอฟเฟกต์ transition สี */
+  text-decoration: none;
+}
+
+/* เพิ่ม CSS เพื่อทำให้ขีดเส้นใต้หายไปเมื่อ Hover */
+.box h2:hover,
+.box p:hover {
+  text-decoration: none; /* ลบขีดเส้นใต้ */
+}
+a {
+  text-decoration: none; /* ลบขีดเส้นใต้ทั้งหน้า */
+}
+
+
+/* รูปแบบ Footer */
+.footer {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer p {
+  margin: 5px 0; /* ปรับระยะห่างของข้อความภายใน Footer */
+}
+
+.footer a {
+  color: #FF5E03;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer a:hover {
+  color: #fff;
+}
+
+/* รูปแบบ Container */
+.container {
+  padding-bottom: 60px; /* ปรับค่าให้เพิ่มพื้นที่ด้านล่างของ Container เท่ากับความสูงของ Footer */
+}
+/* รูปแบบ Social Icons */
+.footer .social-icons {
+  margin-top: 20px;
+}
+
+.footer .social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer .social-icons a:hover {
+  color: #FF5E03;
+}
+

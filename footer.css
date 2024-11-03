@@ -1,0 +1,30 @@
+/* รูปแบบ Footer */
+.footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer p {
+    margin: 5px 0; /* ปรับระยะห่างของข้อความภายใน Footer */
+  }
+  
+  .footer a {
+    color: #FF5E03;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .footer a:hover {
+    color: #fff;
+  }
+  
+  /* รูปแบบ Container */
+  .container {
+    padding-bottom: 60px; /* ปรับค่าให้เพิ่มพื้นที่ด้านล่างของ Container เท่ากับความสูงของ Footer */
+  }
+  
