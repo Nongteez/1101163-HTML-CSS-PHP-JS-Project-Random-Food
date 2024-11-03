@@ -17,7 +17,7 @@
 7. CSS  
 8. Visual Studio Code (for coding)
 
-## 📅 ขั้นตอนการดำเนินโปรเจค
+## 📅 Project Implementation Steps
 1. Personas for system development
 2. Figma - UI design
 3. Use Agile methodology with Lean Process principles
