@@ -1,6 +1,6 @@
 # 🚀 Project Name
 
-> **A brief description of your project.** Explain what your project does and why it’s awesome!
+> **Kin Rai Dee!
 
 ---
 
