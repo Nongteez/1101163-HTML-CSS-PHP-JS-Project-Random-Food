@@ -4,8 +4,8 @@
 
 ---
 ## 📸 Screenshots
-![Project Banner](https://imgur.com/a/AAqQvcN) <!-- Replace with a relevant image or logo -->
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/aM2OsSG" data-context="false" ><a href="//imgur.com/a/aM2OsSG"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![Project Banner](https://imgur.com/aM2OsSG) <!-- Replace with a relevant image or logo -->
+
 ## 🌟 Features
 - ✨ **Feature 1** - Brief explanation of this feature.
 - 🚀 **Feature 2** - Brief explanation of this feature.
