@@ -15,14 +15,5 @@
 
 ## 🔧 Installation
 
-Follow these steps to install the project:
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/yourprojectname.git
-
-# Navigate to the project directory
-cd yourprojectname
-
-# Install dependencies
-npm install  # Or use yarn if preferred
+- You may use XAMPP, Laragon, or others.
+- Add the db.sql file to the database.
